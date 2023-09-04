@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Chat",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "start-server -s ./frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd frontend && npm ci"
+  },
+  "author": "",
+  "license": "ISC",
+  "proxy": "http://localhost:5001",
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.6"
+  }
+}
