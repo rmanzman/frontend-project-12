@@ -4,12 +4,11 @@
 ## Chat
 
 ### Description:
-This is a SPA with registration and authentication that provides any kind of communication and offers a real-time transmission of text messages from sender to receiver. There are permanent (default) channels in the chat, as well as user-created channels. Channels can also be renamed or deleted. Each user action is accompanied by a display of notification, so the interface is as friendly as possible. Chat supports two languages (ru, en) with switching between them at any time. Chat has bad\swear words filtering.
+This is a SPA that provides any kind of communication and offers a real-time transmission of text messages from sender to receiver. The application has multiple channels by default (deleting and renaming is not available). It is also possible to create new channels (deleting and renaming is available). The app is localized into Russian and English, supports profanity filter.
 
 ### Usage
 - Just follow <a href="https://hexlet-chat-project-e0b4.onrender.com/" target="_blank">this link</a>
-- 
-- 
+- Enjoy your conversation
 
 ### For local usage and development
 1. Clone the project
