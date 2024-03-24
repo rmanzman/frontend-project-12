@@ -4,10 +4,10 @@
   "description": "[![Actions Status](https://github.com/rmanzman/frontend-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/rmanzman/frontend-project-12/actions)",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run start --prefix frontend && npm run start",
+    "dev": "npm run start:frontend --prefix frontend & npm run start:backend",
     "build": "npm run build --prefix frontend",
-    "start": "start-server -s ./frontend/build",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:backend": "start-server -s ./frontend/build",
     "postinstall": "cd frontend && npm ci"
   },
   "author": "",
