@@ -7,6 +7,10 @@ const ruTranslation = {
     invalidData: 'Неверные имя пользователя или пароль',
     noAccount: 'Нет аккаунта?',
     signup: 'Регистрация',
+    signupPage: {
+      signup: 'Зарегистрироваться',
+      confirmPassword: 'Подтвердите пароль',
+    },
   },
 };
 
